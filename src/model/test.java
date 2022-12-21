@@ -19,7 +19,7 @@ public class test {
        File f = new File("InvoiceHeader.csv");
        
        String fileName = "InvoiceHeader.csv";
-       while(fileName.indexOf("csv")==-1){
+       while(!fileName.contains("csv")){
             
         
       
